@@ -1,0 +1,98 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    color:rgba(245, 245, 245);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left, .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    background-color: rgba(86, 216, 136, 0.5);
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+}
+
+.photo {
+    display: block;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 5%;
+    border: solid 2px white;
+    overflow: hidden;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.discIcon, .mailIcon {
+display: block;
+
+}
+
+.icon {
+    width: 76px;
+    height: 76px;
+}
+
+.icon2 {
+    width: 76px;
+    height: 68px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    justify-content: space-between;
+}
+
+.line {
+    height: 2px;
+    width: 400px;
+    background-color: white;
+    margin: 10% 0;
+}
+
+.icon, .icon2 {
+    filter: invert();
+}
+
+.right h3 {
+    background-color: rgba(143, 56, 64, 0.281);
+    color:rgba(245, 245, 245);
+    text-align: left;
+    padding: 0.2em;
+}
+
+.right {
+    color: rgb(94, 92, 92);
+}
+a, a:active, a:visited {
+    text-decoration: none;
+    color: rgb(94, 92, 92);
+}
+p {
+    text-align: justify;
+}
+
+.education p {
+    text-align: center;
+}
+.date {
+    color: rgba(94, 92, 92, 0.562);
+}

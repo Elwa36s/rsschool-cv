@@ -1,0 +1,116 @@
+body {
+  margin: 0 auto;
+  width: 1200px;
+  color: rgba(245, 245, 245);
+  font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left,
+.right {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.left {
+  background-color: rgba(86, 216, 136, 0.5);
+}
+.right {
+  background-color: rgba(143, 56, 65, 0.034);
+}
+.cv {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.content {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10%;
+}
+
+.photo {
+  display: inline-block;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 5%;
+  border: solid 2px white;
+  overflow: hidden;
+}
+
+h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.discIcon,
+.mailIcon {
+  display: block;
+}
+
+.icon {
+  width: 76px;
+  height: 76px;
+}
+
+.icon2 {
+  width: 76px;
+  height: 68px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  margin: 5% 0 0 0;
+}
+
+.icon,
+.icon2 {
+  filter: invert();
+}
+
+.right h3 {
+  background-color: rgba(143, 56, 64, 0.281);
+  color: rgba(245, 245, 245);
+  text-align: left;
+  padding: 0.2em;
+}
+
+.right {
+  color: rgb(94, 92, 92);
+}
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: rgb(94, 92, 92);
+}
+p {
+  text-align: justify;
+}
+
+.education p {
+  text-align: center;
+}
+.date {
+  color: rgba(94, 92, 92, 0.562);
+}
+h4 {
+  margin: 0;
+}
+.info {
+  margin-bottom: 10%;
+}

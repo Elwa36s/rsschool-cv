@@ -95,8 +95,11 @@ p {
   text-align: justify;
 }
 
+.profile h3 {
+  margin-top: 0;
+}
 .education h5 {
-  margin: 5%;
+  margin: 3%;
 }
 .date {
   color: rgba(94, 92, 92, 0.562);
@@ -131,4 +134,10 @@ li {
 }
 .rightLine {
   background-color: #aaebc3;
+}
+.skills ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 3.5rem;
 }
